@@ -23,7 +23,7 @@ A Claude skill that finds what is filling your Windows drive, shows you the full
 Copy the `drive-cleaner` folder into your skills folder:
 
 ```powershell
-git clone https://github.com/autobottradingview-lab/drive-cleaner.git "$HOME\drive-cleaner-repo"
+git clone https://github.com/autobottradingview-lab/Drive-cleaner.git "$HOME\drive-cleaner-repo"
 ```
 ```powershell
 Copy-Item "$HOME\drive-cleaner-repo\drive-cleaner" "$HOME\.claude\skills\drive-cleaner" -Recurse
@@ -35,7 +35,7 @@ Then start a new chat and say: **"C drive full hai, scan karo"** or **"free up s
 
 ### Option 2: claude.ai (upload the skill)
 
-1. Download [`drive-cleaner.zip`](https://github.com/autobottradingview-lab/drive-cleaner/raw/main/drive-cleaner.zip) from this repo.
+1. Download [`drive-cleaner.zip`](https://github.com/autobottradingview-lab/Drive-cleaner/raw/main/drive-cleaner.zip) from this repo.
 2. In claude.ai open **Settings > Capabilities**, find **Skills**, and upload the ZIP. (Menu names can change a little; Skills must be available on your plan.)
 3. Start a new chat: **"C drive full hai, 20 GB khali karna hai"**.
 
